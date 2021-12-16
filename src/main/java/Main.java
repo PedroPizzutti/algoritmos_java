@@ -2,10 +2,9 @@ public class Main {
 
     public static void main(String[] args){
 
-        SomaInteiro soma = new SomaInteiro();
+        RealDolar realDolar = new RealDolar();
 
-        soma.somar();
-
+        realDolar.converterRealDolar();
     }
 
 }
