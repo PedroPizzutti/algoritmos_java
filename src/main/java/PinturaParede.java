@@ -25,7 +25,8 @@ public class PinturaParede {
         qtdTinta = area / 2;
 
         System.out.println("A area a ser pintada é de : " + formatador.format(area) + "m²\n" +
-                "Você precisará de: " + formatador.format(qtdTinta) + " litros de tinta");
+                "Você precisará de: " + formatador.format(qtdTinta) + " litros de tinta.");
+        System.out.println("*considerando que cada litro de tinta pinta 2m².");
 
     }
 
