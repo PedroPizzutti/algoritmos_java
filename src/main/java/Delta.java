@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class Delta {
 
-    Scanner scan;
-    int a;
-    int b;
-    int c;
-    double delta;
+    private Scanner scan;
+    private int a;
+    private int b;
+    private int c;
+    private double delta;
 
     public void acharDelta(){
 

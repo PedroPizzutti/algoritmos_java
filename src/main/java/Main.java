@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args){
 
-        AumentoSalario aumentoSalario = new AumentoSalario();
+        LocadoraCarros locadoraCarros = new LocadoraCarros();
 
-        aumentoSalario.calcularAumentoSalarial();
+        locadoraCarros.calcularValorLocacao();
     }
 
 }

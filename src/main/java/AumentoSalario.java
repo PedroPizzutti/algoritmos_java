@@ -3,12 +3,12 @@ import java.util.Scanner;
 
 public class AumentoSalario {
 
-    double salarioAtual;
-    double salarioNovo;
-    double aumentoSalarial;
-    final double PERCENTUAL_AUMENTO = 0.15;
-    Scanner scan;
-    DecimalFormat formatador;
+    private double salarioAtual;
+    private double salarioNovo;
+    private double aumentoSalarial;
+    private final double PERCENTUAL_AUMENTO = 0.15;
+    private Scanner scan;
+    private DecimalFormat formatador;
 
 
     public void calcularAumentoSalarial(){

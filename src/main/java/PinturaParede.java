@@ -3,12 +3,12 @@ import java.util.Scanner;
 
 public class PinturaParede {
 
-    Scanner scan;
-    DecimalFormat formatador;
-    double altura;
-    double largura;
-    double area;
-    double qtdTinta;
+    private Scanner scan;
+    private DecimalFormat formatador;
+    private double altura;
+    private double largura;
+    private double area;
+    private double qtdTinta;
 
     public void calcularAreaPintura(){
 
