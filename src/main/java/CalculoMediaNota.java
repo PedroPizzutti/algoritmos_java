@@ -3,7 +3,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class CalculandoMediaNota {
+public class CalculoMediaNota {
 
     public void calcularMedia(){
 
