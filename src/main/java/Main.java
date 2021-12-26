@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args){
 
-        AlistamentoMilitar alistamentoMilitar = new AlistamentoMilitar();
+        DescontoDiaMulher desconto = new DescontoDiaMulher();
 
-        alistamentoMilitar.verificarIdadeAlistamento();
+        desconto.calcularDescontoPorGenero();
 
     }
 
