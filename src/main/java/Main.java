@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args){
 
-        ParImpar parImpar = new ParImpar();
+        AnoBissexto anoBissexto = new AnoBissexto();
 
-        parImpar.verificarParImpar();
+        anoBissexto.verificarAnoBissexto();
 
     }
 
