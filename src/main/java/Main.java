@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args){
 
-        AnoBissexto anoBissexto = new AnoBissexto();
+        AlistamentoMilitar alistamentoMilitar = new AlistamentoMilitar();
 
-        anoBissexto.verificarAnoBissexto();
+        alistamentoMilitar.verificarIdadeAlistamento();
 
     }
 
