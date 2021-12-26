@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args){
 
-        MultaVelocidade multaVelocidade = new MultaVelocidade();
+        IdadeVoto idadeVoto = new IdadeVoto();
 
-        multaVelocidade.verificarMulta();
+        idadeVoto.verificarPossibilidadeVoto();
     }
 
 }
