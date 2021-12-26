@@ -31,20 +31,19 @@ public class DescontoDiaMulher {
             case 1:
                 valorDesconto = preçoCompra * DESCONTO_MULHER;
                 preçoCompra -= valorDesconto;
-                System.out.println("Obrigado por comprar conosco " + nomePessoa + ".");
-                System.out.println("Valor da compra com desconto: R$" + formatadorNumerico.format(preçoCompra));
                 break;
 
             case 2:
                 valorDesconto = preçoCompra * DESCONTO_HOMEM;
                 preçoCompra -= valorDesconto;
-                System.out.println("Obrigado por comprar conosco " + nomePessoa + ".");
-                System.out.println("Valor da compra com desconto: R$" + formatadorNumerico.format(preçoCompra));
                 break;
 
             default:
                 System.out.println("Você não selecionou um gênero válido...");
         }
+
+        System.out.println("Obrigado por comprar conosco " + nomePessoa + ".");
+        System.out.println("Valor da compra com desconto: R$" + formatadorNumerico.format(preçoCompra));
     }
 
 }

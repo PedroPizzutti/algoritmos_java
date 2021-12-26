@@ -2,9 +2,8 @@ public class Main {
 
     public static void main(String[] args){
 
-        DescontoDiaMulher desconto = new DescontoDiaMulher();
-
-        desconto.calcularDescontoPorGenero();
+        CalculoPreçoCorrida calculoPreçoCorrida = new CalculoPreçoCorrida();
+        calculoPreçoCorrida.calcularPreçoCorrida();
 
     }
 
