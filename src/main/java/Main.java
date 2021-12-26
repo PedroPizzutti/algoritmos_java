@@ -2,9 +2,10 @@ public class Main {
 
     public static void main(String[] args){
 
-        CalculoAprovacao calculoAprovacao = new CalculoAprovacao();
+        ParImpar parImpar = new ParImpar();
 
-        calculoAprovacao.calcularAprovacao();
+        parImpar.verificarParImpar();
+
     }
 
 }

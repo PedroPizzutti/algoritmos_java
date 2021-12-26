@@ -27,9 +27,11 @@ public class CalculoAprovacao {
         media = (nota1 + nota2) / 2;
 
         if(media >= NOTA_MINIMA_APROVACAO){
-            System.out.println("Aluno(a) " + nomeAluno + " aprovado(a) com a média " + media + ".");
+            System.out.println("Aluno(a) " + nomeAluno + " aprovado(a) com a média " +
+                    formatadorNumerico.format(media) + ".");
         } else {
-            System.out.println("Aluno(a) " + nomeAluno + " reprovado(a) com a média " + media + ".");
+            System.out.println("Aluno(a) " + nomeAluno + " reprovado(a) com a média " +
+                    formatadorNumerico.format(media) + ".");
         }
     }
 
