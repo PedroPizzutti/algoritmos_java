@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args){
 
-        MaiorMenor maiorMenor = new MaiorMenor();
+        AprovadoReprovadoRecuperacao chamador = new AprovadoReprovadoRecuperacao();
 
-        maiorMenor.verificarMaiorMenorNumeral();
+        chamador.verificarAprovacao();
 
     }
 
