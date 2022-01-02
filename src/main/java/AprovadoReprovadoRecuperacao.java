@@ -31,7 +31,7 @@ public class AprovadoReprovadoRecuperacao {
         if(media < NOTA_CORTE_REPROVACAO){
             System.out.println("REPROVADO(A) [Nota abaixo de " + NOTA_CORTE_RECUPERACAO + "].");
 
-        } else if (media < NOTA_CORTE_RECUPERACAO){
+        } else if (media >= NOTA_CORTE_REPROVACAO && media < NOTA_CORTE_RECUPERACAO){
             System.out.println("RECUPERAÇÃO " +
                     "[Nota entre " + NOTA_CORTE_REPROVACAO + " e " + (NOTA_CORTE_RECUPERACAO-0.1) + "].");
 
