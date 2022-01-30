@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args){
 
-        AvaliacaoTerreno avaliacaoTerreno = new AvaliacaoTerreno();
+        ComparacaoInteiros comparacaoInteiros = new ComparacaoInteiros();
 
-        avaliacaoTerreno.avaliarTerreno();
+        comparacaoInteiros.compararDoisInteiros();
 
     }
 
